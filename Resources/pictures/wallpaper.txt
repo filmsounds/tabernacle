@@ -1,0 +1,2 @@
+Has Alpha Channel: yesNumber of Animations: 1Horizontal Animation: noVertical ResizableFixed Bottom: 0Fixed Left: 0Fixed Right: 0
+
