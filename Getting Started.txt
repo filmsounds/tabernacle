@@ -1,0 +1,5 @@
+See progress notes file for a list of working features.
+
+TO BEGIN USING THIS TEMPLATE:
+
+Follow my naming scheme for Kontakt groups. You can omit dynamic groups (loops) or RR's, releases, or legato... just include the groups you'll use and the script will read what you've done and find the groups with samples. Once the samples are copied in, you should be good to go. Play around, try features, etc.

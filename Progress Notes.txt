@@ -1,0 +1,45 @@
+Greetings,
+
+I made this to help composers (those of us who don't like code) with sampling our own instruments with ease. It dynamically supports as many playing techniques and RR's as you add via Kontakt groups. Up to 16 mics can be added (by assigning the group to Kontakt Bus 1-16). Nothing is locked and the graphic files included if you want to make the UI your own. It's 98% done and functional.
+
+FEATURES:
+Legato speed (unfinished)
+Humanize Downbeats (useful for notation)
+Stereo Width
+Dynamic Range (instrument & per technique)
+
+Note Stepper (gives each note it's own pan, vol, sample offset, HP/LP, and more)
+Draw mode (inverse, retrograde, scaling, etc)
+Presets (overwritable)
+
+X-fade curve amount (can be more equal, isolated, or meshed)
+
+X-fade any 2 techniques
+Combine RR attack samples (to create a "performance" technique)
+Percussion Mode (1tech/key + modular RR ... enable to build a perc kit patch)
+Legato (unfinished, interval groups are detected, but not triggered yet)
+3 working RR Modes
+
+RR modes:
+
+Human does a FM-shuffle then checks if the old and new shuffle start/end on a repeat... to avoid repetition and be as musical as possible. Android does the same thing with pre-calculated shuffles, to avoid the CPU. It will follow a pattern, but no one would notice. This is also best if you want to be able to edit a specific note without it being random. Cycle = 1, 2, 3, 4, etc.
+
+LICENSE:
+
+This is free to use to build personal and non-profit instruments. If you use, improve, modify, better document it (I hope someone does), then it needs to be reposted with the same license.
+
+PROJET STATUS:
+
+(edited) I no longer have a way to continue this and may not be able to for some time, if ever. I switched to StaffPad in 2020, so this was purely a sort of pet service project. I just didn't want it to vanish into thin air. Thank you ScoringFilm for updating the script reference and packing the file. I've been lucky enough to be able to do some cleanup. The latest and simplest version is now accessible via github.
+
+MISSING FEATURES:
+
+A Fast2 Legato is coded in so I could x-fade to gliss for strings if playing fast (or experiment with it anyway)
+DFD/Sampler/Purge... I just set it to not purge anything for now while working on it. This clearly isn't ideal.
+On the main page ALT view, there's an incomplete keyboard range option for legato and theming.
+I thought about adding a toggle/bypass (hold note, cc?) to disable dynamic crossfading if not wanting to hear mixed signals.
+I'm not sure if I set the default CC value yet for the x-fade feature...? It's a simple fix, but hopefully this was already done. I'm unable to test this atm.
+
+I wanted to make a video, improve the documentation, and eventually make it as stupid-simple as possible. It seems unlikely anytime soon, but if anyone ever does find it useful, please say so on vi-control. I may not get back to the thread, but I'd probably hear about it. I'll try to check in again.
+
+-Sean
